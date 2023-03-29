@@ -52,6 +52,7 @@ span {
     position: relative;
     bottom: 15px;
     left: 25px;
+    color: hsl(345, 95%, 68%);
     z-index: 1;
 }
 
