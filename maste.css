@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: hsl(235, 16%, 14%);
+}
+
+.hi {
+    transform: translatey(300px);
+    height: 250px;
+    width: 1400px;
+    z-index: 1;
+}
+
+.main {
+    overflow: hidden;
+    height: 100%;
+}
+
+.s {
+    width: 365px;
+    height: 100%;
+    position: absolute;
+}
+
+h1 {
+    transform: translate(5px, 100px);
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+span {
+    display: inline-block;
+    margin-left: 29px;
+    transform: translatey(70px);
+}
+
+.time {
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    margin-left: 20px;
+    transform: translatey(50px);
+    font-size: 30px;
+}
+
+.idkwgoh {
+    transform: translatey(100px);
+}
+
+.time p {
+    position: relative;
+    bottom: 15px;
+    left: 25px;
+    z-index: 1;
+    color: hsl(345, 95%, 68%);
+}
+
+.up {
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+    height: 60px;
+    transform-origin: top;
+    transform: rotatex(50deg);
+    background-color: hsl(234, 17%, 12%);
+
+}
+
+.down {
+    position: absolute;
+    width: 100%;
+    background-color: blue;
+    height: 60px;
+    transform-origin: top;
+    transform: rotatex(-50deg) translatey(-100px);
+    background-color: hsl(234, 17%, 12%);
+    z-index: 0;
+}
+
+.mi{
+        transform: translate(-150px, 350px);
+    position: absolute;
+    z-index: 2;
+    
+
+}
+
+.so {
+        display: inline-block;
+
+    transform: translate(-150px, 350px);
+    position: absolute;
+    margin-left: 60px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.soo{
+        transform: translate(-100px, 350px);
+    z-index: 2;
+    border-radius: 10px!important;
+}
+
+.mi:hover,
+.soo:hover,
+.so:hover{
+    background-color: red;
+}
+
+@media (min-width:400px) {
+    body {
+        width: 1440px;
+    }
+    .time {
+        transform: translatey(70px) translatex(500px);
+    }
+    
+    .main {
+        overflow: visible;
+    }
+    
+    span {
+        transform: translatex(250px) translatey(100px);
+    }
+    
+    .idkwgoh {
+        display: inline-block;
+        position: relative;
+        left: 210px;
+        transform: translate(250px 0px);
+    }
+    
+    .hi {
+        transform: translatey(200px);
+    }
+    .mi {
+        transform: translatex(10px) translatey(350px);
+    }
+    .so {
+        transform: translatex(90px) translatey(350px);
+    }
+    .soo {
+        transform: translatex(30px) translatey(350px);
+    }
+}
+
+.attribution {
+    transform: translatey(250px);
+}
